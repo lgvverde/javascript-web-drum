@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #f8e398;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #da4167;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #083d77;
+
+}
+
+footer {
+  color: #2e4057;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2e4057;
+}
+
+a:hover {
+  color: #da4167;
+}
+
+.w {
+  background-image: url("images/crash.png");
+}
+
+.a {
+  background-image: url("images/kick.png");
+  
+}
+
+.s {
+  background-image: url("images/snare.png");
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/tom2.png");
+}
+
+.k {
+  background-image: url("images/tom3.png");
+}
+
+.l {
+  background-image: url("images/tom4.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #083d77;
+  font-size: 5rem;
+  font-family: 'Fredoka One', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da4167;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 8px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
